@@ -1,14 +1,16 @@
-Definer：
+## Definer：
 software_engineering_show：This is the main program for visualizing the software interface, running this py file will display the software interface.
 test_data：Simple data examples are provided, and the files are in txt format files. Each data is two rows, including name and data, where the data column is a set of gene sequences consisting of ACCU.
 model_cerevisiae、model_musculus、model_sapiens:Models for predicting results in a visual software interface.
 
-Install:
+## Install:
 conda create -m Definer python==3.8.8
+
 conda activate Definer
+
 pip install -r requires_env.txt
 
-Usage:
+## Usage:
 cd .\Definer\code
 python software_engineering_show.py
 Click the Upload File button to upload the txt file data.
